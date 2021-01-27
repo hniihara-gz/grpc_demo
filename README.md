@@ -11,4 +11,8 @@ $ brew install protobuf
 #Go用のprotocプラグインのインストール
 $ go get -u github.com/golang/protobuf/protoc-gen-go
 
+# 
+protoc -I helloworld  --go_out=helloworld helloworld/helloworld.proto
+
+
 ```
